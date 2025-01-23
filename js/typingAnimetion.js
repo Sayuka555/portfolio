@@ -21,12 +21,12 @@ function typeText() {
 }
 
 // 一文字ずつ消去する関数
-function eraseText() {
-  index--;
-  typingText.textContent = text.slice(0, index);
-  if (index > 1) {
-    setTimeout(eraseText, 100);
-  } else {
-    setTimeout(typeText, 1500);
-  }
-}
+// function eraseText() {
+//   index--;
+//   typingText.textContent = text.slice(0, index);
+//   if (index > 1) {
+//     setTimeout(eraseText, 100);
+//   } else {
+//     setTimeout(typeText, 1500);
+//   }
+// }

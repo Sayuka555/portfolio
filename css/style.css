@@ -165,7 +165,7 @@ ul:has(a:hover) a:not(:hover) {
     /* width <= 800px */
 }
 
-/* メイン */
+/* -------------メイン------------------- */
 main{
     margin-top: 3rem;
 }
@@ -179,7 +179,7 @@ main .top .topBackImg{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 50vh;
+    height: 60vh;
     opacity: 0.8;
 }
 main .top .topBackImg .topTitle{
